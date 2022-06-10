@@ -4,7 +4,7 @@ Throwing Dice 10 times and system generates(throws) dice 10 times. i will get po
 
 this exercise is done using javascript
 
-i will explain you in how it works:
+i will explain you  how it works:
 
 first of all i am using [Promise]([https://www.google.com](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise?retiredLocale=it)) to do this exercise.
 
