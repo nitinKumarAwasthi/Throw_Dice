@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dado</title>
+
+
+        <!-- input da 1 a 6 da utente
+        promise estrai un numero da 1 a 6 
+        se utente numero uguale promise 1 point 
+        if utente inserisce una string si avvia error nll promise 
+        html numeri estratti da promise 
+        utente può ripartire il gioco quando vuole 
+        gioco finisce dopo 10 lanci -->
+
+<script src="index.js"></script>
+</head>
+
+<body>
+   
+    <div>
+        <p id="score"></p>
+    </div>
+    
+    <button type="button" id="btn" onclick="clickme()">Start</button>
+    <button type="button" id="btn2" onclick="window.location.reload();">Reset</button>
+    
+    <div>
+        <h1>Numeri generati dal utente</h1>
+        <p id="uten"></p>
+        <h1>Numeri generati dal Promise</h1>
+        <p id="macc"></p>
+    </div>
+
+<!-- <script>
+
+estraiunnumero().then(function(succ){
+    let score = document.getElementById("score").innerText = succ;
+}).catch(function(err){
+    alert(err);
+})
+
+</script> -->
+    
+</body>
+</html>
