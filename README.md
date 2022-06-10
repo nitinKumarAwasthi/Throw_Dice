@@ -6,7 +6,7 @@ this exercise is done using javascript
 
 i will explain you  how it works:
 
-first of all i am using [Promise]([https://www.google.com](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise?retiredLocale=it)) to do this exercise.
+first of all i am using (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise?retiredLocale=it "Promise")) to do this exercise.
 
 i generate a number - then system generates a random number, <br>
 i confront my number with system number only if my number is a integer and is between 1 and 6, <br>
